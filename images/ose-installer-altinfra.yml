@@ -23,8 +23,8 @@ enabled_repos:
 for_payload: true
 from:
   builder:
-  - member: ose-etcd-rhel9
-  - member: ose-hyperkube-rhel9
+  - member: ose-etcd
+  - member: openshift-enterprise-hyperkube
   - stream: rhel-9-golang
   member: openshift-enterprise-base-rhel9
 name: openshift/ose-installer-altinfra-rhel9
